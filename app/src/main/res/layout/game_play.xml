@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ruskiBackground"
+    tools:context="com.example.borris.ruskiroolay.MainActivity"
+    android:weightSum="22">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.25"
+            android:src="@drawable/ian2"
+            android:id="@+id/enemyImage"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Round = 9 \n Eenemies 9"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="3"
+            android:id="@+id/roundsTitle"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/behind2"
+            android:id="@+id/behind"
+            android:layout_weight="1.75"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="20"
+        android:background="@color/ruskiBackground"
+        android:weightSum="3">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HELP"
+            android:id="@+id/helpButton"
+            android:background="@drawable/bottom_button"
+            android:textColor="#da8e0a"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="START"
+            android:id="@+id/startButton"
+            android:background="@drawable/bottom_button"
+            android:textColor="#da8e0a"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LEADERBOARD"
+            android:id="@+id/leaderboardButton"
+            android:background="@drawable/bottom_button"
+            android:textColor="#da8e0a"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

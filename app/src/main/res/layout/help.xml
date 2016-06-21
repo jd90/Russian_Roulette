@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ruskiBackground"
+    tools:context="com.example.borris.ruskiroolay.MainActivity"
+    android:weightSum="22">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Help"
+        android:textSize="40dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_weight="9"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n\nIt&apos;s Russian Roulette...\n\n Quit Stalling and Pull the Trigger"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:background="@color/ruskiBackground"
+        android:weightSum="3">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="RETURN"
+            android:id="@+id/startButton"
+            android:background="@drawable/bottom_button"
+            android:textColor="#da8e0a"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
